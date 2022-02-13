@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 <template>
-  <h1>Web</h1>
+  <span>Web</span>
 </template>
 <style scoped></style>

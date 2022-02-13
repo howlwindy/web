@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Simple Icons';
+  src: url('/fonts/SimpleIcons.woff2') format('woff2');
+}
+
+.si {
+  font-family: 'Simple Icons', sans-serif;
+  font-style: normal;
+}
+
+.si-html5::before {
+  content: '\ed59';
+}
+
+.si-html5.si--color::before {
+  color: #e34f26;
+}
+
+.si-css3::before {
+  content: '\ebba';
+}
+
+.si-css3.si--color::before {
+  color: #1572b6;
+}
+
+.si-javascript::before {
+  content: '\eda9';
+}
+
+.si-javascript.si--color::before {
+  color: #f7df1e;
+}
+
+.si-typescript::before {
+  content: '\f18f';
+}
+
+.si-typescript.si--color::before {
+  color: #3178c6;
+}

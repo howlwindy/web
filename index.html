@@ -2,12 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web</title>
+    <style>
+      .logos {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        z-index: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      .logo {
+        font-size: 25vw;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="logos">
+      <i class="logo si si-html5 si--color"></i>
+      <i class="logo si si-css3 si--color"></i>
+      <i class="logo si si-javascript si--color"></i>
+      <i class="logo si si-typescript si--color"></i>
+    </div>
+    <div
+      id="app"
+      style="
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: #ffffffee;
+        position: relative;
+        z-index: 0;
+      "
+    ></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
